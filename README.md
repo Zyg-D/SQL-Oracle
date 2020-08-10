@@ -1,4 +1,11 @@
 ----------------------------------
+Paskutine bazes atnaujinimo data?
+```sql
+SELECT * 
+FROM ALL_TAB_STATS_HISTORY
+ORDER BY stats_update_time ASC
+```
+----------------------------------
 All columns (from both tables and views) that I have access to:
 ```sql
 SELECT * FROM ALL_TAB_COLUMNS
